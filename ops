@@ -1,0 +1,37 @@
+add, sub, mul, div 
+
+and, not, or, xor,
+
+shf, shr, shar
+
+del &x
+new Type
+nList capacity
+concat &list
+insert index, &list
+insert &list
+nTable capacity
+insert &table
+nSet capacity
+
+type &obj
+
+push i/u/b/c/s/o
+pop i/u/b/c/s/o
+
+throw excType
+
+charAt index, &str
+
+malloc n
+free &addr
+
+cpsh &o1, &o2
+cpdp &o1, &o2
+
+jmp, je, jne, jg, jge, jl, jle
+
+ret
+
+newtoken tkn = "abc"
+tkn.:
