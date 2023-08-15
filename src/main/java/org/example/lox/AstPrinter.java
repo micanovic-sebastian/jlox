@@ -18,7 +18,7 @@ public class AstPrinter implements Expr.Visitor<String> {
 
     @Override
     public String visitCallExpr(Expr.Call expr) {
-        return null;
+        return "call : " + expr.arguments;
     }
 
     @Override
